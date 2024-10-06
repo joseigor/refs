@@ -1,6 +1,12 @@
 # Prerequisites
 *.d
 
+# Preprocessed C/C++ files
+*.i*
+
+# Assembly files
+*.s
+
 # Compiled Object files
 *.slo
 *.lo
