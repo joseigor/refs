@@ -253,8 +253,8 @@ First, let's see the dependencies between the files:
 ```mermaid
 graph TD
     B[calculator.h] -->|includes/depends| A[main.cpp]
-    C[math/add.h] -->|includes/depends| B[calculator.h]
-    D[math/sub.h] -->|includes/depends| B[calculator.h]
+    C[math/add.h] -->|includes/depends| E[calculator.cpp]
+    D[math/sub.h] -->|includes/depends| E[calculator.cpp]
     E[calculator.cpp] -->|implements| B[calculator.h] 
     F[math/add.cpp] -->|implements| C[math/add.h]
     G[math/sub.cpp] -->|implements| D[math/sub.h]
