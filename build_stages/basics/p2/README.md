@@ -1,7 +1,19 @@
 # Basics of building a program - Part 2
-[[toc]]
 
-In [part-1](../basics-of-building-a-program-part1.md) we saw how to compile a
+- [Basics of building a program - Part 2](#basics-of-building-a-program---part-2)
+  - [Project structure](#project-structure)
+  - [Building the project](#building-the-project)
+    - [Step 1: Pre-process](#step-1-pre-process)
+    - [Step 2: Compile](#step-2-compile)
+    - [Step 3: Assembly](#step-3-assembly)
+    - [Step 4: Link](#step-4-link)
+  - [Understanding when object file needs to be generated](#understanding-when-object-file-needs-to-be-generated)
+    - [Example: Adding a  new version of add function](#example-adding-a--new-version-of-add-function)
+  - [The importance of header files](#the-importance-of-header-files)
+  - [Bonus: Automating the build process with `make`](#bonus-automating-the-build-process-with-make)
+  - [Conclusion](#conclusion)
+
+In [part-1](../p1/README.md) we saw how to compile a
 simple program with a single file. The following topics were covered:
 
 - The four stages of building a program: `preprocessing`, `compiling`,

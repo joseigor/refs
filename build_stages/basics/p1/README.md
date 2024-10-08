@@ -1,5 +1,12 @@
 # Basics of building a program - Part1
 
+- [Basics of building a program - Part1](#basics-of-building-a-program---part1)
+  - [Steps involved in the building process](#steps-involved-in-the-building-process)
+    - [Building using `g++` in 4 steps](#building-using-g-in-4-steps)
+    - [Building using `cpp`, `g++`, `as` and `ld`](#building-using-cpp-g-as-and-ld)
+    - [Conclusion](#conclusion)
+  - [References](#references)
+
 Here starts our journey of a deep understanding of all the parts involved in
 the process of building a program file into a binary executable that is
 suitable to run on a given target. Beforehand let's define some terms that will
