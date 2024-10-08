@@ -6,7 +6,8 @@ software engineering domain.
 
 ## Building and Compilation
 
-1. [Basics of building - Part1](./build_stages/basics/basics-of-building-a-program-part1.md)
+1. [Basics of building - Part1](./build_stages/basics/p1/README.md)
+2. [Basics of building - Part2](./build_stages/basics/p2/README.md)
 
 ## Make
 
